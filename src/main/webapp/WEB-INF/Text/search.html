@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:c="">
+<head>
+  <title>search result</title>
+</head>
+<body>
+<h1>search result</h1>
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Контент</th>
+  </tr>
+  <c:forEach items="${documents}" var="document">
+    <tr>
+      <td>${document.id}</td>
+      <td>${document.content}</td>
+    </tr>
+  </c:forEach>
+</table>
+</body>
+</html>

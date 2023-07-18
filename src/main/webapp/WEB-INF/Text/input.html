@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Input Text</title>
+</head>
+<body>
+<h1>Enter Text</h1>
+<form action="/Text/save" method="post">
+    <textarea name="text" rows="5" cols="50"></textarea>
+    <br>
+    <button type="submit">Save</button>
+</form>
+<h1>search doc</h1>
+<form action="/search" method="post">
+    <input type="text" name="searchText" placeholder="Введите текст для поиска">
+    <button type="submit">Search</button>
+</form>
+</body>
+</html>
